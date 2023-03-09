@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "HelveticaNeueBd";
+  src: local("HelveticaNeueBd"),
+   url("./assets/fonts/HelveticaNeueMed.ttf") format("truetype");
+}
+
+
+.App {
+  text-align: center;
+  font-family: "HelveticaNeueBd";
+  width: 100%;
+  height: 100%;
+  padding: 100px 10px;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+
+
+.todo_body{
+  width: 90%;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.todo_card{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 20fr 1fr 1fr;
+  flex-wrap: wrap;
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  background-color:rgba(255, 252, 246, 0.965);
+
+}
+.todo_card input{
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.todo_card > .todo_text {
+  text-align: left;
+}
+
+@media(max-width: 300px) {
+  .todo_card{
+      display: flex;
+      align-items: center;
+      grid-template-columns: 1fr 20fr;
+      font-size: 1rem;
+      }
+}
+
+

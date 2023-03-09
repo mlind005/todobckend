@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bfa333da.css",
+    "main.js": "/static/js/main.1bfa0ca9.js",
+    "static/js/787.50dba8ed.chunk.js": "/static/js/787.50dba8ed.chunk.js",
+    "static/media/HelveticaNeueMed.ttf": "/static/media/HelveticaNeueMed.49f40b0373f2a8f402f6.ttf",
+    "static/media/HelveticaNeueBd.ttf": "/static/media/HelveticaNeueBd.497b4484b7335c1f0c11.ttf",
+    "index.html": "/index.html",
+    "main.bfa333da.css.map": "/static/css/main.bfa333da.css.map",
+    "main.1bfa0ca9.js.map": "/static/js/main.1bfa0ca9.js.map",
+    "787.50dba8ed.chunk.js.map": "/static/js/787.50dba8ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfa333da.css",
+    "static/js/main.1bfa0ca9.js"
+  ]
+}
