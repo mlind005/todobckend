@@ -6,7 +6,7 @@ dotenv.config();
 
 
 
-const Db = process.env.DATABASE
+const Db = "mongodb+srv://chiku:milindchiku100@cluster0.soei3mc.mongodb.net/TodoApp?retryWrites=true&w=majority";
 
 
 
